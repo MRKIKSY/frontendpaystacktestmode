@@ -16,7 +16,7 @@ const SubmissionList = () => {
       }
 
       try {
-        const response = await axios.get("http://localhost:5000/api/submissions", {
+        const response = await axios.get("https://backendpaystacktestmode.onrender.com/api/submissions", {
           headers: { Authorization: `Bearer ${token}` },
         });
         setSubmissions(response.data);

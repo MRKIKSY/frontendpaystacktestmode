@@ -20,7 +20,7 @@ const SubmissionForm = () => {
     if (picture) formData.append("picture", picture);
 
     try {
-      await axios.post("http://localhost:5000/api/submissions", formData);
+      await axios.post("https://backendpaystacktestmode.onrender.com/api/submissions", formData);
       // Congratulatory message
       alert(
         "Congratulations! Your information has been captured successfully. You will be contacted by management shortly."
