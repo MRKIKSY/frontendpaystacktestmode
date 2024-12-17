@@ -15,7 +15,7 @@ const PaystackPayment = () => {
     try {
       // Verify payment
       const response = await fetch(
-        "http://localhost:5000/verify-payment",
+        "https://backendpaystacktestmode.onrender.com/verify-payment",
         {
           method: "POST",
           headers: { "Content-Type": "application/json" },
