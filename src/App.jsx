@@ -10,7 +10,7 @@ const App = () => {
     <Router>
       <div className="container-fluid">
         <div className="text-center my-5">
-          <h1 className="display-4 text-primary">Nairaland Advertising Credit Buying System</h1>
+          <h1 className="display-4 text-primary">Mr Kiksy Payment System </h1>
         </div>
         <Routes>
           <Route
